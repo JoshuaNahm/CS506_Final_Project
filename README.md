@@ -94,7 +94,7 @@ By following this **test plan**, we aim to ensure our final model is both **accu
 ---
 
 ## 📢 Contributors  
-🚀 **Your Name** - [GitHub Profile](https://github.com/yourprofile)  
+🚀 **Joshua Nahm** - [GitHub Profile](https://github.com/JoshuaNahm)  
 🚀 **Seokhoon Shin** - [GitHub Profile](https://github.com/seokhoonshin)  
 
 ---
