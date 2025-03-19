@@ -1,0 +1,96 @@
+# 📌 CS506 Final Project - Midterm Report  
+
+## 🚗 Uber & Lyft Ride Price Prediction - Boston, MA  
+
+### 📅 Team Members  
+- **Joshua Nahm** ([GitHub](https://github.com/JoshuaNahm))  
+- **Seokhoon Shin** ([GitHub](https://github.com/seokhoonshin))  
+
+---
+
+## 📌 Project Overview  
+This project aims to **predict ride prices** for Uber and Lyft in **Boston, MA** based on various factors such as **time, location, service type, distance, surge multiplier, and weather conditions**.  
+
+We are also analyzing **pricing strategies** and **demand fluctuations** between Uber and Lyft, providing insights for both customers and ride-sharing companies.  
+
+---
+
+## 📊 Progress Update  
+
+### 1️⃣ Data Preprocessing  
+- Imported and cleaned the **rideshare_kaggle.csv** dataset.  
+- Removed **missing values**, particularly in the `price` column.  
+- Checked **data types** and performed necessary transformations.  
+- Focused on key features such as **time, location, service type, distance, surge multiplier, and weather** to enhance model interpretability.  
+
+### 2️⃣ Exploratory Data Analysis (EDA)  
+
+#### 📌 Key Findings:  
+1. **Price Trends**  
+   - Lyft is consistently **more expensive** than Uber throughout the day.  
+   - Surge pricing is a significant factor in fare fluctuations.  
+
+2. **Time-Based Analysis**  
+   - Peak hours (morning & evening rush) show a noticeable increase in ride prices.  
+   - Weekend prices tend to be slightly higher than weekday prices.  
+
+3. **Location-Based Demand**  
+   - Certain locations, such as **downtown areas and airports**, experience **higher ride demand** and **higher fares**.  
+   - Heatmaps indicate clear **pickup/drop-off hotspots**.  
+
+4. **Weather Influence**  
+   - Higher **wind speed** and lower **temperature** correlate with **higher ride prices**, likely due to increased demand.  
+
+---
+
+## 🏗️ Model Development  
+
+We tested multiple **machine learning models** to predict ride prices:  
+
+| Model                 | Performance (Preliminary) |
+|----------------------|----------------------|
+| **Random Forest** 🌲 | Strong performance, good interpretability |
+| **XGBoost** ⚡       | High accuracy, requires hyperparameter tuning |
+| **Neural Network** 🤖 | Complex but promising, requires more training data |
+| **Linear Regression** 📊 | Baseline model, weak fit due to non-linearity |
+| **k-NN** 🔍 | Performs well but is computationally expensive |
+
+### 1️⃣ **Feature Engineering**  
+- Encoded categorical variables (`cab_type`, `source`, `destination`).  
+- Standardized numerical features (e.g., `distance`, `temperature`).  
+- Created new derived features (e.g., `hour_of_day`, `day_of_week`).  
+
+### 2️⃣ **Train-Test Split & Cross-Validation**  
+- Split dataset into **80% training, 20% testing**.  
+- Applied **5-fold cross-validation** for robust model evaluation.  
+
+### 3️⃣ **Initial Model Results**  
+- **Random Forest** and **XGBoost** showed the best performance.  
+- **Neural Networks** required more fine-tuning for optimal results.  
+- **Linear Regression** struggled due to non-linear relationships in the data.  
+
+---
+
+## 🔍 Next Steps  
+
+✅ **Hyperparameter Tuning:**  
+- Optimize **Random Forest** and **XGBoost** using **GridSearchCV**.  
+- Experiment with **Neural Network architectures**.  
+
+✅ **Further Feature Engineering:**  
+- Investigate impact of **rain, snow, and extreme weather conditions**.  
+- Extract more **time-based features** for better demand forecasting.  
+
+✅ **Comparison of Uber vs. Lyft Pricing Strategies:**  
+- Analyze price differences by service type (e.g., UberX vs. Lyft Regular).  
+- Identify **surge pricing triggers** for each platform.  
+
+✅ **Model Deployment:**  
+- Build an **interactive dashboard** to visualize real-time predictions.  
+
+---
+
+## 📢 Conclusion  
+We have successfully **cleaned and explored** the dataset, identified **key insights**, and developed **initial predictive models**. Our next phase involves **model optimization and deeper analysis** of pricing strategies. 🚀  
+
+Stay tuned for further updates!  
