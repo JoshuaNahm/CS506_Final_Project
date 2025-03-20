@@ -1,5 +1,8 @@
 # 🚗 Uber & Lyft Ride Price Prediction - Midterm Report  
 
+## 📌 Midterm Report Presentation Link
+https://youtu.be/GSzufgYa9GY
+
 ## 📌 Project Description  
 Ride-sharing services like **Uber and Lyft** have become integral to urban transportation. This project aims to analyze ride-sharing data from **Boston, MA** to identify key factors influencing ride prices and demand.  
 
