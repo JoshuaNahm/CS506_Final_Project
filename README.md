@@ -90,7 +90,7 @@ This dataset contains **six hundred thousand rows** of ride-sharing data collect
 ---
 
 ## 📌 Data Preprocessing
-  🔹 As mentioned in the EDA process, we will drop unnecessary and redundant features, remove missing values, exclude outliers, and encode Categorical features before modling.
+  🔹 As mentioned in the EDA process, we will drop unnecessary and redundant features, remove missing values, exclude outliers, and encode Categorical features before modeling.
   - Drop unnecessary, redundant features:
       - We will additionally drop the *_bin columns, as they were only used for exploratory visualizations and are not suitable for modeling. These interval-based features could cause errors and do not provide additional predictive power, so they were removed.
   
