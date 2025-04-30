@@ -2,7 +2,9 @@ name: Run Tests
 
 on:
   push:
+    branches: [main]
   pull_request:
+    branches: [main]
 
 jobs:
   build:
@@ -24,7 +26,3 @@ jobs:
     - name: Run tests
       run: |
         pytest test/
-
-
-
-
