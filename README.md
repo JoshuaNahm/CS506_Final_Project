@@ -1,6 +1,10 @@
 ---
 ## 🔧 How to Build and Run
 
+⚠️ Dataset Notice
+The dataset rideshare_kaggle.csv is not included in this repository due to size constraints.
+You must download it manually from Kaggle and place it in the root project directory. (The Kaggle address is below at "Data Collection" section. 
+
 ### 1. Clone the repo:
    
 git clone https://github.com/seokhoonshin/CS506_Final_Project.git
@@ -20,11 +24,6 @@ make run
 ### 4. Run Tests
 
 make test 
-
-
-⚠️ Dataset Notice
-The dataset rideshare_kaggle.csv is not included in this repository due to size constraints.
-You must download it manually from Kaggle and place it in the root project directory. (The Kaggle address is below at "Data Collection" section. 
 
 ---
 
