@@ -1,17 +1,14 @@
 ---
-📥 Dataset Preparation
+## 📥 Dataset Preparation
 
-Before running the code, please download the dataset from Kaggle:
+Before running the code, please follow these steps to prepare the dataset:
 
-Visit the dataset page: ([Kaggle](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma))   
+1. Visit the dataset page on Kaggle: [Uber and Lyft Dataset - Boston, MA](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma)
+2. Click on **"Download All"** to download the dataset as a `.zip` file.
+3. Unzip the downloaded file on your computer.
+4. Move the extracted file named `rideshare_kaggle.csv` into the **root directory** of this repository (i.e., the same folder as the notebook or main script).
 
-Click on "Download All" to download the dataset as a .zip file.
-
-After downloading, unzip the file.
-
-Move the extracted CSV file (rideshare_kaggle.csv) into the root directory of this project (same folder as your notebook or script).
-
-Make sure the filename remains rideshare_kaggle.csv so the code can locate it correctly.
+⚠️ **Make sure the filename remains `rideshare_kaggle.csv`** so that the code can read it without any issues.
 
 ## 🔧 How to Build and Run
 
@@ -68,7 +65,7 @@ Using a dataset containing ride details such as **time, location, temperature, a
 ## 📊 Data Collection  
 
 ### 📌 Dataset Source  
-- **Uber and Lyft Dataset - Boston, MA**  
+- **Uber and Lyft Dataset - Boston, MA**  ([Kaggle](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma)) 
 
 ### 📌 Dataset Overview  
 This dataset contains **six hundred thousand rows** of ride-sharing data collected from Uber and Lyft in **Boston, MA**, with **57 features** capturing key aspects of ride pricing, demand, and external influences:  
