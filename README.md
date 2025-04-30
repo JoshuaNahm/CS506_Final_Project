@@ -3,7 +3,7 @@
 
 Before running the code, please download the dataset from Kaggle:
 
-Visit the dataset page: ([Kaggle](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma))  
+Visit the dataset page: ([Kaggle](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma))   
 
 Click on "Download All" to download the dataset as a .zip file.
 
@@ -68,7 +68,7 @@ Using a dataset containing ride details such as **time, location, temperature, a
 ## 📊 Data Collection  
 
 ### 📌 Dataset Source  
-- **Uber and Lyft Dataset - Boston, MA** ([Kaggle](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma))  
+- **Uber and Lyft Dataset - Boston, MA**  
 
 ### 📌 Dataset Overview  
 This dataset contains **six hundred thousand rows** of ride-sharing data collected from Uber and Lyft in **Boston, MA**, with **57 features** capturing key aspects of ride pricing, demand, and external influences:  
