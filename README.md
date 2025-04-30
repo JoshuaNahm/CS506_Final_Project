@@ -27,8 +27,6 @@ make test
 The dataset rideshare_kaggle.csv is not included in this repository due to size constraints.
 You must download it manually from Kaggle and place it in the root project directory.
 
-The code will detect its absence and show a helpful message instead of failing.
-
 ---
 
 # 🚗 Uber & Lyft Ride Price Prediction - Final Report  
