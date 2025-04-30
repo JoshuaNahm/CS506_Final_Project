@@ -1,6 +1,6 @@
-# 🚗 Uber & Lyft Ride Price Prediction - Midterm Report  
+# 🚗 Uber & Lyft Ride Price Prediction - Final Report  
 
-## 📌 Midterm Report Presentation Link
+## 📌 Final Report Presentation Link
 https://youtu.be/GSzufgYa9GY
 
 ## 📌 Project Description  
@@ -138,6 +138,33 @@ This dataset contains **six hundred thousand rows** of ride-sharing data collect
 - XGBoost performed the best with the highest Test R² (0.959) and the lowest Test MAE (1.25), meaning it has the best predictive power and the lowest error in price estimation. 
 
 ---
+
+## 🔧 How to Build and Run
+
+### 1. Clone the repo:
+   
+git clone https://github.com/seokhoonshin/CS506_Final_Project.git
+cd CS506_Final_Project
+
+### 2. Install Dependencies
+
+make install  
+(Or manually: pip install -r requirements.txt)
+
+### 3. Run the Main Script
+
+make run
+
+### 4. Run Tests
+
+make test
+
+
+
+
+
+
+
 
 ## ✅ Next Steps  
 
