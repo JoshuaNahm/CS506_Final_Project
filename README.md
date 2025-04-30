@@ -108,7 +108,11 @@ This dataset contains **six hundred thousand rows** of ride-sharing data collect
      - <img width="291" alt="encoding" src="https://github.com/user-attachments/assets/7e06a312-6c1f-43eb-a0bc-6b43340e93b9" /> <img width="291" alt="encoding2" src="https://github.com/user-attachments/assets/ffa44e55-ab63-4433-a8ef-adf9bf81455b" />
 
 ---
+## 📌 Train/Test Split
 
+We split the data into training and testing sets using an 80/20 split. Both the label-encoded and one-hot encoded datasets were split using `train_test_split` with a fixed random seed (42) to ensure consistent evaluation across all models.
+
+---
 ## ⚙️ Machine Learning Models  
 
   🔹 We tested multiple models to predict ride fares:
