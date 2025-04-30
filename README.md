@@ -1,3 +1,29 @@
+---
+
+## 🔧 How to Build and Run
+
+### 1. Clone the repo:
+   
+git clone https://github.com/seokhoonshin/CS506_Final_Project.git
+
+cd CS506_Final_Project
+
+### 2. Install Dependencies
+
+make install  
+
+(Or manually: pip install -r requirements.txt)
+
+### 3. Run the Main Script
+
+make run
+
+### 4. Run Tests
+
+make test 
+
+---
+
 # 🚗 Uber & Lyft Ride Price Prediction - Final Report  
 
 ## 📌 Final Report Presentation Link
@@ -174,30 +200,6 @@ Test R²: 0.960
 Test MAE: 1.21
 
 These results confirm that XGBoost is highly accurate and stable for ride price prediction, making it the most suitable model for our objective.
-
----
-
-## 🔧 How to Build and Run
-
-### 1. Clone the repo:
-   
-git clone https://github.com/seokhoonshin/CS506_Final_Project.git
-
-cd CS506_Final_Project
-
-### 2. Install Dependencies
-
-make install  
-
-(Or manually: pip install -r requirements.txt)
-
-### 3. Run the Main Script
-
-make run
-
-### 4. Run Tests
-
-make test 
 
 ---
 
