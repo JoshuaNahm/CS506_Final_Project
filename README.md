@@ -199,6 +199,7 @@ make run
 
 make test 
 
+⚠️ Note: If running in Google Colab, uncomment the files.upload() line to upload rideshare_kaggle.csv manually.
 ---
 
 ## 📢 Contributors  
