@@ -133,10 +133,6 @@ This dataset contains **six hundred thousand rows** of ride-sharing data collect
 
     - <img width="367" alt="knng" src="https://github.com/user-attachments/assets/b25a94c4-6d4d-4119-a8b5-1cc45cba2aba" /> <img width="196" alt="KNN" src="https://github.com/user-attachments/assets/bd20078a-7a16-4c2e-9be9-2445b1c381f6" />
 
-
-### 🚀 **Best Model: XGBoost**  
-- XGBoost performed the best with the highest Test R² (0.959) and the lowest Test MAE (1.25), meaning it has the best predictive power and the lowest error in price estimation. 
-
 ---
 
 ## 🧠 Model Selection & Optimization
