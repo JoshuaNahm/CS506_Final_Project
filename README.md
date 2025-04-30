@@ -139,6 +139,44 @@ This dataset contains **six hundred thousand rows** of ride-sharing data collect
 
 ---
 
+## 🧠 Model Selection & Optimization
+
+After testing a variety of machine learning models, we selected **XGBoost** as our final model for predicting Uber & Lyft ride prices. Below is a summary of the performance comparison:
+
+| Model              | Train R² | Test R² | Test MAE |
+|--------------------|----------|---------|----------|
+| Random Forest      | 0.977    | 0.948   | 1.35     |
+| XGBoost (Default)  | 0.959    | 0.959   | 1.25     |
+| Linear Regression  | 0.856    | 0.857   | 2.57     |
+| Neural Network     | –        | 0.944   | 1.58     |
+| K-Nearest Neighbors| 0.850    | 0.765   | 3.17     |
+
+Among all models, **XGBoost demonstrated the best generalization** performance with high R² and low MAE on the test set, outperforming both simpler models (Linear Regression, KNN) and more complex ones (Neural Network) in terms of accuracy and efficiency.
+
+### 🔧 XGBoost Hyperparameter Tuning
+
+To further improve performance, we performed a **Grid Search** across 108 parameter combinations using 5-fold cross-validation (540 total fits). The best parameters were:
+
+{
+    'colsample_bytree': 1.0,
+    'learning_rate': 0.2,
+    'max_depth': 7,
+    'n_estimators': 300,
+    'subsample': 1.0
+}
+
+With these parameters, the final tuned XGBoost model achieved:
+
+Train R²: 0.963
+
+Test R²: 0.960
+
+Test MAE: 1.21
+
+These results confirm that XGBoost is highly accurate and stable for ride price prediction, making it the most suitable model for our objective.
+
+---
+
 ## 🔧 How to Build and Run
 
 ### 1. Clone the repo:
@@ -157,21 +195,7 @@ make run
 
 ### 4. Run Tests
 
-make test
-
-
-
-
-
-
-
-
-## ✅ Next Steps  
-
-🔹 **Fine-tune XGBoost parameters** for better accuracy.  
-🔹 **Optimize model for real-time price prediction**.  
-
-🚀 **Final goal:** Develop a highly accurate, generalizable model for Uber & Lyft ride price estimation.  
+make test 
 
 ---
 
