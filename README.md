@@ -1,15 +1,4 @@
 ---
-## 📥 Dataset Preparation
-  
-Before running the code, please follow these steps to prepare the dataset:
-
-1. Visit the dataset page on Kaggle: [Uber and Lyft Dataset - Boston, MA]
-2. Click on **"Download All"** to download the dataset as a '.zip' file.
-3. Unzip the downloaded file on your computer.
-4. Move the extracted file named 'rideshare_kaggle.csv' into the **root directory** of this repository (i.e., the same folder as the notebook or main script).
-
-⚠️ **Make sure the filename remains 'rideshare_kaggle.csv'** so that the code can read it without any issues.
-
 ## 🔧 How to Build and Run
 
 ### 1. Clone the repo:
