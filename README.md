@@ -178,11 +178,13 @@ These results confirm that XGBoost is highly accurate and stable for ride price 
 ### 1. Clone the repo:
    
 git clone https://github.com/seokhoonshin/CS506_Final_Project.git
+
 cd CS506_Final_Project
 
 ### 2. Install Dependencies
 
 make install  
+
 (Or manually: pip install -r requirements.txt)
 
 ### 3. Run the Main Script
